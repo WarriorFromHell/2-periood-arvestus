@@ -2,8 +2,8 @@
 session_start();
 ?>
 <?php
-$_SESSION["username"] = "Markus";
-$_SESSION["password"] = "pass";
+$_SESSION["username"] = "markus";
+$_SESSION["password"] = "asdasd";
 ?>
 <!DOCTYPE html>
 <html lang="en">

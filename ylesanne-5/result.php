@@ -1,11 +1,15 @@
     <?php
 $validUsername = "markus";
 $validPassword = "qwerty";
+/// Ei ole kindel, kas $username ja $passwordi lisamine siia on vajalik..
+$username = "markus";
+$password = "asdasd";
 ?>
 <?php
-if ($username) || $validUsername == "") {
-    $usernameMessage = '<div class="form-message form-error">Nime väli ei vasta nõuetele</div>';
-  } ?>
+if ($_SESSION["$username"] = $validUsername && $_SESSION ["password"] = $validPassword)
+ {	echo "Kasutajanimi ja parool on õiged.";
+} else echo "Kasutajanimi ja/või parool ei klapi";
+?> 
 <!DOCTYPE html>
 <html lang="en">
   <head>
